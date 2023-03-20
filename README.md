@@ -10,3 +10,17 @@ if you have problem with permissions, run:
 ```sh
   sudo chmod +x first_install.sh
 ```
+
+
+## docker-compose for local mysql and/or postgres db
+A docker-compose file to use mysql and/or postgres db volumed, passwords and volume paths are defined in the yaml file, to use it simply run:
+
+```sh
+  docker-compose up -d
+```
+or:
+```sh
+  docker compose up -d
+```
+
+Docker and docker compose need to be installed for this to work. Enjoy it! (⌐ ͡■ ͜ʖ ͡■)
